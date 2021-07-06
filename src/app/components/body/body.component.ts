@@ -6,4 +6,12 @@ import { Component } from "@angular/core";
 })
 export class BodyCompononent{
 
+  view = true;
+
+  phrase:any = {
+    msg: 'A la grande le puse cuca',
+    autor: 'Homer Thompson'
+  };
+
+  characters:string[] = ['Homer', 'Ralph', 'Hugo', 'Juan Topo', 'Duffman']
 }
